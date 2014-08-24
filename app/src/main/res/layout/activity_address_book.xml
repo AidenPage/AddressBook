@@ -1,0 +1,194 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@android:color/black">
+
+<TableLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tableLayout"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".addressBook"
+    android:background="@android:color/black">
+
+    <TableRow
+        android:id="@+id/FirstTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name: "
+            android:id="@+id/FirstTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/FirstEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/LastNameTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name: "
+            android:id="@+id/LastTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LastEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/EmailAddressTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address: "
+            android:id="@+id/EmailAddressTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailAddressEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/CellNumberTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cell Phone Number: "
+            android:id="@+id/CellNumberTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CellNumberEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/HomeAddressTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home Address"
+            android:id="@+id/HomeAddressTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/StreetsTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street: "
+            android:id="@+id/StreetsTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/StreetsEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/CitysTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City/State/Zip: "
+            android:id="@+id/CitysTextView"
+            android:background="@android:color/black"
+            android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CitysEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/AddTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </TableRow>
+
+</TableLayout>
+</ScrollView>

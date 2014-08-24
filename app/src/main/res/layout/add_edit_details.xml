@@ -1,0 +1,107 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@android:color/black">
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <EditText
+        android:id="@+id/FirstNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:hint="@string/name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/LastNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/surname"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/PhoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/EmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:paddingTop="10dp"
+        android:text="@string/address"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/StreetEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/street"
+        android:imeOptions="actionNext"
+        android:inputType="textPostalAddress"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/CityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/city"
+        android:imeOptions="actionDone"
+        android:inputType="textPostalAddress"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/saveContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="@string/button_save_contact"
+        />
+
+</LinearLayout>
+
+</ScrollView>
