@@ -41,7 +41,6 @@ public class ViewContact extends Activity {
 
         Bundle extras = getIntent().getExtras();
         rowID = extras.getLong("row_id");
-
     }
 
     @Override
