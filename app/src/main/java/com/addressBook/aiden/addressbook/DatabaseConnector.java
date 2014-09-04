@@ -40,7 +40,7 @@ public class DatabaseConnector {
         return db.query("contacts",null,"_id="+ID,null,null,null,null);
     }
 
-    public void insertContact(String firstName, String lastName, String email, String phone, String street, String city)
+    public void insertContact(String firstName, String lastName, String phone, String email, String street, String city)
     {
         ContentValues newContact = new ContentValues();
         newContact.put("firstName",firstName);
@@ -62,7 +62,7 @@ public class DatabaseConnector {
         close();
     }
 
-    public void updateContact(long rowID, String firstName, String lastName, String email, String phone, String street, String city) {
+    public void updateContact(long rowID, String firstName, String lastName, String phone, String email, String street, String city) {
 
         ContentValues editContact = new ContentValues();
         editContact.put("firstName",firstName);

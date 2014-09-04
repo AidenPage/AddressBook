@@ -1,10 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".addressBook" >
-    <item android:id="@+id/addContact"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:icon="@android:drawable/ic_menu_add"
-        android:titleCondensed="@string/menu_item_add_contact"/>
+
+    <item android:id="@+id/edit_contact"
+        android:title="@string/menu_item_edit_contact"
+        android:orderInCategory="1"
+        android:titleCondensed="@string/menu_item_edit_contact"
+        android:icon="@android:drawable/ic_menu_edit"
+        />
+
+    <item android:id="@+id/delete_contact"
+        android:title="@string/menu_item_delete_contact"
+        android:orderInCategory="2"
+        android:titleCondensed="@string/menu_item_delete_contact"
+        android:icon="@android:drawable/ic_menu_delete"
+        />
 </menu>

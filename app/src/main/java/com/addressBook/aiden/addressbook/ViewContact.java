@@ -73,7 +73,7 @@ public class ViewContact extends Activity {
             int phoneIndex = result.getColumnIndex("phone");
             int emailIndex = result.getColumnIndex("email");
             int streetIndex = result.getColumnIndex("street");
-            int cityIndex = result.getColumnIndex("email");
+            int cityIndex = result.getColumnIndex("city");
 
             firstNameTextView.setText(result.getString(firstNameIndex));
             lastNameTextView.setText(result.getString(LastNameIndex));
@@ -105,12 +105,12 @@ public class ViewContact extends Activity {
             case R.id.edit_contact:
                 Intent addEditContact = new Intent(this,AddEditContact.class);
                 addEditContact.putExtra("row_id",rowID);
-                addEditContact.putExtra("firstName",firstNameTextView.getText());
-                addEditContact.putExtra("lastName",lastNameTextView.getText());
-                addEditContact.putExtra("phone",phoneTextView.getText());
-                addEditContact.putExtra("email",emailTextView.getText());
-                addEditContact.putExtra("street",streetTextView.getText());
-                addEditContact.putExtra("city",cityTextView.getText());
+                addEditContact.putExtra("firstName",firstNameTextView.getText().toString());
+                addEditContact.putExtra("lastName",lastNameTextView.getText().toString());
+                addEditContact.putExtra("phone",phoneTextView.getText().toString());
+                addEditContact.putExtra("email",emailTextView.getText().toString());
+                addEditContact.putExtra("street",streetTextView.getText().toString());
+                addEditContact.putExtra("city",cityTextView.getText().toString());
                 startActivity(addEditContact);
             return true;
             case R.id.delete_contact:

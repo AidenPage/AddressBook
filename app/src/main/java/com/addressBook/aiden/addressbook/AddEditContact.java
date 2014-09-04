@@ -110,7 +110,7 @@ public class AddEditContact extends Activity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        getMenuInflater().inflate(R.menu.add_edit_details,menu);
+        getMenuInflater().inflate(R.menu.activity_address_book,menu);
         return true;
     }
 }

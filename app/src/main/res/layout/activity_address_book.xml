@@ -37,7 +37,8 @@
             android:id="@+id/FirstEditText"
             android:layout_weight="1"
             android:background="@drawable/textview_border"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:editable="false" />
     </TableRow>
 
     <TableRow
@@ -60,30 +61,8 @@
             android:id="@+id/LastEditText"
             android:layout_weight="1"
             android:background="@drawable/textview_border"
-            android:textColor="#ffffffff" />
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/EmailAddressTableRow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email Address: "
-            android:id="@+id/EmailAddressTextView"
-            android:background="@android:color/black"
-            android:textColor="#ffffffff" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/EmailAddressEditText"
-            android:layout_weight="1"
-            android:background="@drawable/textview_border"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:editable="false"/>
     </TableRow>
 
     <TableRow
@@ -106,7 +85,32 @@
             android:id="@+id/CellNumberEditText"
             android:layout_weight="1"
             android:background="@drawable/textview_border"
+            android:textColor="#ffffffff"
+            android:editable="false"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/EmailAddressTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address: "
+            android:id="@+id/EmailAddressTextView"
+            android:background="@android:color/black"
             android:textColor="#ffffffff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailAddressEditText"
+            android:layout_weight="1"
+            android:background="@drawable/textview_border"
+            android:textColor="#ffffffff"
+            android:editable="false"/>
     </TableRow>
 
     <TableRow
@@ -144,7 +148,8 @@
             android:id="@+id/StreetsEditText"
             android:layout_weight="1"
             android:background="@drawable/textview_border"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:editable="false"/>
     </TableRow>
 
     <TableRow
@@ -167,7 +172,8 @@
             android:id="@+id/CitysEditText"
             android:layout_weight="1"
             android:background="@drawable/textview_border"
-            android:textColor="#ffffffff" />
+            android:textColor="#ffffffff"
+            android:editable="false"/>
     </TableRow>
 
     <TableRow
