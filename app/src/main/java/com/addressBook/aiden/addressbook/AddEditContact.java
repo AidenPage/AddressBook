@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 /**
- * Created by Aidem on 2014/08/24.
+ * Created by Aiden on 2014/08/24.
  */
 public class AddEditContact extends Activity{
 
